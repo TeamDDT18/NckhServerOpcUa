@@ -23,30 +23,9 @@ F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\obj\Debug\UA Server
 F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CopyComplete
 F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.dll
 F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.pdb
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Opc.Ua.ServerControls.pdb
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Newtonsoft.Json.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Opc.Ua.Configuration.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Opc.Ua.Core.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Opc.Ua.Security.Certificates.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\Opc.Ua.Server.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\BouncyCastle.Crypto.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\System.Buffers.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\System.Formats.Asn1.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\System.Memory.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\bin\Debug\System.ValueTuple.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.AssemblyReference.cache
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ExceptionDlg.resources
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Properties.Resources.resources
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.ServerForm.resources
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.HeaderBranding.resources
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.GenerateResource.cache
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CoreCompileInputs.cache
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\UA Server Controls.csproj.CopyComplete
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.dll
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.ServerControls.pdb
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Endpoint.resources
-C:\Users\DELL\source\repos\NCKH\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Home.resources
+F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Endpoint.resources
+F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Home.resources
+F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\bin\Debug\Certification.resx
+F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\bin\Debug\Certification.cs
+F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\bin\Debug\Certification.Designer.cs
+F:\opcua\UA-.NETStandard-Samples\Samples\ServerControls.Net4\obj\Debug\Opc.Ua.Server.Controls.Certification.resources

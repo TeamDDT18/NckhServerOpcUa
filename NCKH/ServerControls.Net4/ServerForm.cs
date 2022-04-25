@@ -53,7 +53,7 @@ namespace Opc.Ua.Server.Controls
         /// </summary>
         public ServerForm()
         {
-            InitializeComponent();
+            InitializeComponent();  
         }
         
         /// <summary>
@@ -73,9 +73,9 @@ namespace Opc.Ua.Server.Controls
                 configuration.CertificateValidator.CertificateValidation +=
                     new CertificateValidationEventHandler(CertificateValidator_CertificateValidation);
             }
-
-            TrayIcon.Text = this.Text = m_configuration.ApplicationName;
-            this.Icon = TrayIcon.Icon = ServerUtils.GetAppIcon();
+            timer.Enabled = true;
+            timer.Interval = 1000;
+            
         }
 
 
@@ -89,7 +89,6 @@ namespace Opc.Ua.Server.Controls
             m_application = application;
             m_server = application.Server as StandardServer;
             m_configuration = application.ApplicationConfiguration;
-            
 
             if (showCertificateValidationDialog &&
                 !application.ApplicationConfiguration.SecurityConfiguration.AutoAcceptUntrustedCertificates)
@@ -97,9 +96,17 @@ namespace Opc.Ua.Server.Controls
                 application.ApplicationConfiguration.CertificateValidator.CertificateValidation += new CertificateValidationEventHandler(CertificateValidator_CertificateValidation);
             }
 
-            TrayIcon.Text = this.Text = m_configuration.ApplicationName;
-            this.Icon = TrayIcon.Icon = ServerUtils.GetAppIcon();
+            //Enable Timer for update server information
+            timer.Enabled = true;
+            timer.Interval = 1000;
+
+            //Set up for home tab
+            this.home1.Initialize(m_server, m_configuration);
+            this.serverDiagnosticsCtrl1.Initialize(m_server, m_configuration);
+            this.endpoint1.Initialize(m_server, m_configuration);
+            this.certification1.Initialize(m_server, m_configuration);
         }
+
         #endregion
 
         #region Private Fields
@@ -157,18 +164,7 @@ namespace Opc.Ua.Server.Controls
 
         private void TrayIcon_MouseMove(object sender, MouseEventArgs e)
         {
-            try
-            {
-                TrayIcon.Text = String.Format(
-                    "{0} [{1} {2:HH:mm:ss}]",
-                    m_configuration.ApplicationName,
-                    m_server.CurrentInstance.CurrentState,
-                    DateTime.Now);
-            }
-            catch (Exception exception)
-            {
-                Utils.Trace(exception, "Error getting server status.");
-            }
+            
         }
         #endregion
 
@@ -237,9 +233,31 @@ namespace Opc.Ua.Server.Controls
             }
         }
 
-        private void updateTimerControl_Tick(object sender, EventArgs e)
+        private void ServerForm_Load(object sender, EventArgs e)
         {
-            
+
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            try
+            {
+                runningLabel.Text = m_server.CurrentInstance.CurrentState.ToString();
+                serverCurrentTimeValue.Text = String.Format("{0:HH:mm:ss}", DateTime.Now);
+                sessionValue.Text = Convert.ToString(this.serverDiagnosticsCtrl1.NumberofSeesion());
+                subscriptionsValue.Text = Convert.ToString(this.serverDiagnosticsCtrl1.NumberofSubcriptions());
+                itemsValue.Text = Convert.ToString(this.serverDiagnosticsCtrl1.NumberofItems());
+
+                this.home1.UpdateServer();
+                this.endpoint1.Update();
+                this.serverDiagnosticsCtrl1.UpdateServer();
+                this.certification1.UpdateCertification();
+
+            }
+            catch (Exception exception)
+            {
+                ServerUtils.HandleException(this.Text, exception);
+            }
         }
     }
 }

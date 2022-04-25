@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Data;
 using System.Windows.Forms;
 using System.Xml;
@@ -18,7 +18,7 @@ namespace Opc.Ua.Server.Controls
         }
         #endregion
         string[] EndpointUrl = new string[11];
-        private string path = @"...\...\ThesisServer.Config.xml";
+        private string path = @"..\..\ThesisServer.Config.xml";
         #region
         private StandardServer m_server;
         private ApplicationConfiguration m_configuration;
@@ -40,9 +40,15 @@ namespace Opc.Ua.Server.Controls
             uaTcpAddressValue.Text = EndpointUrl[0];
             uaHttpsAddressValue.Text = EndpointUrl[count - 1];
             // Update the security
+            // check if the file config is exist
+            if (!System.IO.File.Exists(path))
+            {
+                MessageBox.Show("file not exist");
+            }
             DataSet SecurityDataSet = new DataSet();
             SecurityDataSet.ReadXml(path);
             DataTable dataTable = new DataTable();
+            dataTable = SecurityDataSet.Tables["ServerSecurityPolicy"];
             int temp = 0;
             foreach(DataRow dataRow in dataTable.Rows)
             {
@@ -114,9 +120,11 @@ namespace Opc.Ua.Server.Controls
             {
                 XmlNode element = xmlDocument.CreateNode(XmlNodeType.Element, "ServerSecurityPolicy", "http://opcfoundation.org/UA/SDK/Configuration.xsd");
                 var value = element.AppendChild(xmlDocument.CreateNode(XmlNodeType.Element, "SecurityMode", "http://opcfoundation.org/UA/SDK/Configuration.xsd"));
+                value.AppendChild(xmlDocument.CreateTextNode("None_1"));
 
                 value = element.AppendChild(xmlDocument.CreateNode(XmlNodeType.Element, "SecurityPolicyUri", "http://opcfoundation.org/UA/SDK/Configuration.xsd"));
                 value.AppendChild(xmlDocument.CreateTextNode("http://opcfoundation.org/UA/SecurityPolicy#None"));
+                xmlNode.AppendChild(element);
             }
             if (checkBoxSignTcp.Checked)
             {
@@ -225,8 +233,14 @@ namespace Opc.Ua.Server.Controls
                     xmlNode.AppendChild(element);
                 }
             }
-
-            xmlDocument.Save(path);
+            try
+            {
+                xmlDocument.Save(path);
+            }
+            catch(Exception exception)
+            {
+                MessageBox.Show(exception.ToString());
+            }
 
 
         }

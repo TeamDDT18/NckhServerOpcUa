@@ -2,22 +2,6 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.2": {
-      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "build": {
-          "build/Microsoft.Extensions.Logging.Abstractions.targets": {}
-        }
-      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -27,10 +11,10 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Configuration.dll": {}
@@ -39,12 +23,11 @@
           "lib/net462/Opc.Ua.Configuration.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Core.dll": {}
@@ -53,7 +36,7 @@
           "lib/net462/Opc.Ua.Core.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.367.95": {
         "type": "package",
         "dependencies": {
           "Portable.BouncyCastle": "1.9.0",
@@ -175,22 +158,6 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win": {
-      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "build": {
-          "build/Microsoft.Extensions.Logging.Abstractions.targets": {}
-        }
-      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -200,10 +167,10 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Configuration.dll": {}
@@ -212,12 +179,11 @@
           "lib/net462/Opc.Ua.Configuration.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Core.dll": {}
@@ -226,7 +192,7 @@
           "lib/net462/Opc.Ua.Core.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.367.95": {
         "type": "package",
         "dependencies": {
           "Portable.BouncyCastle": "1.9.0",
@@ -348,22 +314,6 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win-x64": {
-      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "build": {
-          "build/Microsoft.Extensions.Logging.Abstractions.targets": {}
-        }
-      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -373,10 +323,10 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Configuration.dll": {}
@@ -385,12 +335,11 @@
           "lib/net462/Opc.Ua.Configuration.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Core.dll": {}
@@ -399,7 +348,7 @@
           "lib/net462/Opc.Ua.Core.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.367.95": {
         "type": "package",
         "dependencies": {
           "Portable.BouncyCastle": "1.9.0",
@@ -521,22 +470,6 @@
       }
     },
     ".NETFramework,Version=v4.6.2/win-x86": {
-      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
-        "type": "package",
-        "dependencies": {
-          "System.Buffers": "4.5.1",
-          "System.Memory": "4.5.4"
-        },
-        "compile": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "runtime": {
-          "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll": {}
-        },
-        "build": {
-          "build/Microsoft.Extensions.Logging.Abstractions.targets": {}
-        }
-      },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
@@ -546,10 +479,10 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Core": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Configuration.dll": {}
@@ -558,12 +491,11 @@
           "lib/net462/Opc.Ua.Configuration.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.367.95": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.368.33"
+          "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates": "1.4.367.95"
         },
         "compile": {
           "lib/net462/Opc.Ua.Core.dll": {}
@@ -572,7 +504,7 @@
           "lib/net462/Opc.Ua.Core.dll": {}
         }
       },
-      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.368.33": {
+      "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.367.95": {
         "type": "package",
         "dependencies": {
           "Portable.BouncyCastle": "1.9.0",
@@ -695,58 +627,6 @@
     }
   },
   "libraries": {
-    "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
-      "sha512": "dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
-      "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/6.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
-        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
-        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
-        "build/Microsoft.Extensions.Logging.Abstractions.targets",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
-        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
-        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
-        "microsoft.extensions.logging.abstractions.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "Newtonsoft.Json/13.0.1": {
       "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
@@ -774,10 +654,10 @@
         "packageIcon.png"
       ]
     },
-    "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.368.33": {
-      "sha512": "Z/bccZ8KC+KtaOObShlO6jr2J2s2qx3xhY1LPB59CY0PVHxwcUp5Qb5OiI1AB7YOgsl91945/934oZgm/3OqMQ==",
+    "OPCFoundation.NetStandard.Opc.Ua.Configuration/1.4.367.95": {
+      "sha512": "vKu816h86aDZi8Fult5U7WmTFEpw/YDQyCDGKFH0FmDmIM3GNDdgndutcvy51CKtF21wh+JQEOEDnwNgDX8JLg==",
       "type": "package",
-      "path": "opcfoundation.netstandard.opc.ua.configuration/1.4.368.33",
+      "path": "opcfoundation.netstandard.opc.ua.configuration/1.4.367.95",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -791,14 +671,14 @@
         "lib/netstandard2.1/Opc.Ua.Configuration.dll",
         "lib/netstandard2.1/Opc.Ua.Configuration.xml",
         "licenses/LICENSE.txt",
-        "opcfoundation.netstandard.opc.ua.configuration.1.4.368.33.nupkg.sha512",
+        "opcfoundation.netstandard.opc.ua.configuration.1.4.367.95.nupkg.sha512",
         "opcfoundation.netstandard.opc.ua.configuration.nuspec"
       ]
     },
-    "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.368.33": {
-      "sha512": "emAVGcmPLWIVBqA5KRSPQd1V+N/iVei/UGHiRrmr3jBeMH4AppBx46RyOvh/3MqJ5u8q+QZCNiscE0ainiV6Fg==",
+    "OPCFoundation.NetStandard.Opc.Ua.Core/1.4.367.95": {
+      "sha512": "BMJYuGpH8zQzW9ce/o3QO6a77yglX6YGoUR5cKDefbBq/ke/6rYeHvhGZ2S8L29zoeuxbpRSlDZTH5QCKqO36g==",
       "type": "package",
-      "path": "opcfoundation.netstandard.opc.ua.core/1.4.368.33",
+      "path": "opcfoundation.netstandard.opc.ua.core/1.4.367.95",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -812,14 +692,14 @@
         "lib/netstandard2.1/Opc.Ua.Core.dll",
         "lib/netstandard2.1/Opc.Ua.Core.xml",
         "licenses/LICENSE.txt",
-        "opcfoundation.netstandard.opc.ua.core.1.4.368.33.nupkg.sha512",
+        "opcfoundation.netstandard.opc.ua.core.1.4.367.95.nupkg.sha512",
         "opcfoundation.netstandard.opc.ua.core.nuspec"
       ]
     },
-    "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.368.33": {
-      "sha512": "0V6vmHLgiq9+bSBosWh/AylXoYAH6vWWoC/ZzUf+UYFKBA++Q/YvOESO2KfDY9PxG7fgmz0dHqJ4IRDNVJAE2g==",
+    "OPCFoundation.NetStandard.Opc.Ua.Security.Certificates/1.4.367.95": {
+      "sha512": "dZ/SRdex0/DTFHKALBusCemxgXogzT7lbbd3M63ZFeKFT2AnO8qDX8IlxzfvBr0TUjqk8/rdKkNaG9/OFghYgg==",
       "type": "package",
-      "path": "opcfoundation.netstandard.opc.ua.security.certificates/1.4.368.33",
+      "path": "opcfoundation.netstandard.opc.ua.security.certificates/1.4.367.95",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -833,7 +713,7 @@
         "lib/netstandard2.1/Opc.Ua.Security.Certificates.dll",
         "lib/netstandard2.1/Opc.Ua.Security.Certificates.xml",
         "licenses/LICENSE.txt",
-        "opcfoundation.netstandard.opc.ua.security.certificates.1.4.368.33.nupkg.sha512",
+        "opcfoundation.netstandard.opc.ua.security.certificates.1.4.367.95.nupkg.sha512",
         "opcfoundation.netstandard.opc.ua.security.certificates.nuspec"
       ]
     },
@@ -1073,8 +953,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.2": [
-      "Microsoft.Extensions.Logging.Abstractions >= 6.0.1",
-      "OPCFoundation.NetStandard.Opc.Ua.Configuration >= 1.4.368.33",
+      "OPCFoundation.NetStandard.Opc.Ua.Configuration >= 1.4.367.95",
       "OPCFoundation.NetStandard.Opc.Ua.Server >= 1.4.367.95"
     ]
   },
@@ -1084,11 +963,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\UA Server Controls.csproj",
+      "projectUniqueName": "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\UA Server Controls.csproj",
       "projectName": "UA Server Controls",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\UA Server Controls.csproj",
+      "projectPath": "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\UA Server Controls.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\obj\\",
+      "outputPath": "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1111,13 +990,9 @@
     "frameworks": {
       "net462": {
         "dependencies": {
-          "Microsoft.Extensions.Logging.Abstractions": {
-            "target": "Package",
-            "version": "[6.0.1, )"
-          },
           "OPCFoundation.NetStandard.Opc.Ua.Configuration": {
             "target": "Package",
-            "version": "[1.4.368.33, )"
+            "version": "[1.4.367.95, )"
           },
           "OPCFoundation.NetStandard.Opc.Ua.Server": {
             "target": "Package",

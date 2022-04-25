@@ -51,7 +51,6 @@ namespace Opc.Ua.Server.Controls
             this.uaHttpsAddressLabel = new System.Windows.Forms.Label();
             this.uaHttpsAddressValue = new System.Windows.Forms.TextBox();
             this.checkBoxSignHttps = new System.Windows.Forms.CheckBox();
-            this.checkBoxNoneHttps = new System.Windows.Forms.CheckBox();
             this.applySettingsButton = new System.Windows.Forms.Button();
             this.securityHttpsModeLabel = new System.Windows.Forms.Label();
             this.groupBoxSecuritySignAndEncrypt.SuspendLayout();
@@ -265,22 +264,12 @@ namespace Opc.Ua.Server.Controls
             // checkBoxSignHttps
             // 
             this.checkBoxSignHttps.AutoSize = true;
-            this.checkBoxSignHttps.Location = new System.Drawing.Point(470, 543);
+            this.checkBoxSignHttps.Location = new System.Drawing.Point(252, 550);
             this.checkBoxSignHttps.Name = "checkBoxSignHttps";
             this.checkBoxSignHttps.Size = new System.Drawing.Size(58, 21);
             this.checkBoxSignHttps.TabIndex = 7;
             this.checkBoxSignHttps.Text = "Sign";
             this.checkBoxSignHttps.UseVisualStyleBackColor = true;
-            // 
-            // checkBoxNoneHttps
-            // 
-            this.checkBoxNoneHttps.AutoSize = true;
-            this.checkBoxNoneHttps.Location = new System.Drawing.Point(212, 546);
-            this.checkBoxNoneHttps.Name = "checkBoxNoneHttps";
-            this.checkBoxNoneHttps.Size = new System.Drawing.Size(64, 21);
-            this.checkBoxNoneHttps.TabIndex = 6;
-            this.checkBoxNoneHttps.Text = "None";
-            this.checkBoxNoneHttps.UseVisualStyleBackColor = true;
             // 
             // applySettingsButton
             // 
@@ -307,7 +296,6 @@ namespace Opc.Ua.Server.Controls
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.applySettingsButton);
             this.Controls.Add(this.checkBoxSignHttps);
-            this.Controls.Add(this.checkBoxNoneHttps);
             this.Controls.Add(this.checkBoxSignEncryptTcp);
             this.Controls.Add(this.checkBoxSignTcp);
             this.Controls.Add(this.checkBoxNoneTcp);
@@ -320,7 +308,7 @@ namespace Opc.Ua.Server.Controls
             this.Controls.Add(this.groupBoxSecurityPoliciesSign);
             this.Controls.Add(this.groupBoxSecuritySignAndEncrypt);
             this.Name = "Endpoint";
-            this.Size = new System.Drawing.Size(1083, 653);
+            this.Size = new System.Drawing.Size(974, 598);
             this.groupBoxSecuritySignAndEncrypt.ResumeLayout(false);
             this.groupBoxSecuritySignAndEncrypt.PerformLayout();
             this.groupBoxSecurityPoliciesSign.ResumeLayout(false);
@@ -354,7 +342,6 @@ namespace Opc.Ua.Server.Controls
         private System.Windows.Forms.Label uaHttpsAddressLabel;
         private System.Windows.Forms.TextBox uaHttpsAddressValue;
         private System.Windows.Forms.CheckBox checkBoxSignHttps;
-        private System.Windows.Forms.CheckBox checkBoxNoneHttps;
         private System.Windows.Forms.Button applySettingsButton;
         private System.Windows.Forms.Label securityHttpsModeLabel;
     }

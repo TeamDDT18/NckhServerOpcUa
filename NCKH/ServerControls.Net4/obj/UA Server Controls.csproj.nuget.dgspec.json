@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\UA Server Controls.csproj": {}
+    "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\UA Server Controls.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\UA Server Controls.csproj": {
+    "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\UA Server Controls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\UA Server Controls.csproj",
+        "projectUniqueName": "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\UA Server Controls.csproj",
         "projectName": "UA Server Controls",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\UA Server Controls.csproj",
+        "projectPath": "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\UA Server Controls.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\NCKH\\ServerControls.Net4\\obj\\",
+        "outputPath": "F:\\opcua\\UA-.NETStandard-Samples\\Samples\\ServerControls.Net4\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -34,13 +34,9 @@
       "frameworks": {
         "net462": {
           "dependencies": {
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
             "OPCFoundation.NetStandard.Opc.Ua.Configuration": {
               "target": "Package",
-              "version": "[1.4.368.33, )"
+              "version": "[1.4.367.95, )"
             },
             "OPCFoundation.NetStandard.Opc.Ua.Server": {
               "target": "Package",
